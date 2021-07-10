@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#jogo{
+    margin: 0 auto 30px auto;
+    background-color: black;
+    border: 1px solid white;
+    height: 595px;
+    width: 1000px;
+}
+#painel{
+    text-align: center;
+    margin: 0 auto;
+}
+#iniciar{
+    float: left;
+}
+#pontuacao{
+    margin-top: 5px;
+    float: right;
+}
+#pontuacaoCpu{
+    border-style: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    text-align: center;
+    color: white;
+}
+#pontuacaoJogador{
+    border-style: none;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+#bola{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 490px;
+    top: 285px;
+    border-radius: 20px;
+}
+#jogador{
+    background-color: white;
+    width: 20px;
+    height: 140px;
+    position: relative;
+    left: 5px;
+    top: 200px;
+}
+#cpu{
+    background-color: white;
+    width: 20px;
+    height: 140px;
+    position: relative;
+    left: 973px;
+    top: 50px;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
